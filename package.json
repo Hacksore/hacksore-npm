@@ -1,6 +1,6 @@
 {
   "name": "hacksore",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "index.js"
@@ -16,7 +16,7 @@
     "hacksore": "scripts/bin.js"
   },
   "dependencies": {
-    "postinstall-postinstall": "^2.1.0",
-    "picocolors": "^1.0.0"
+    "picocolors": "^1.0.0",
+    "postinstall-postinstall": "^2.1.0"
   }
 }
