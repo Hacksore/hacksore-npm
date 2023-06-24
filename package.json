@@ -7,13 +7,13 @@
   ],
   "license": "MIT",
   "scripts": {
-    "postinstall": "node scripts/postinstall.js"
+    "postinstall": "node ./scripts/postinstall.js"
   },
   "engines": {
     "node": ">=14.0.0"
   },
   "bin": {
-    "hacksore": "scripts/bin.js"
+    "hacksore": "./scripts/bin.js"
   },
   "dependencies": {
     "picocolors": "^1.0.0",
