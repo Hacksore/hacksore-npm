@@ -1,6 +1,6 @@
 {
   "name": "hacksore",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "files": [
     "index.js"
@@ -11,5 +11,8 @@
   },
   "bin": {
     "hacksore": "index.js"
+  },
+  "devDependencies": {
+    "postinstall-postinstall": "^2.1.0"
   }
 }
