@@ -1,0 +1,15 @@
+{
+  "name": "hacksore",
+  "version": "0.0.1",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node index.js"
+  },
+  "bin": {
+    "hacksore": "index.js"
+  }
+}
