@@ -1,8 +1,14 @@
-import picocolors from "picocolors"
+import picocolors from "picocolors";
 export function greet() {
-  const me = picocolors.bold(picocolors.blue("👋 Hi I am Hacksore"))
-  console.log(me);
-  const site = picocolors.bold(picocolors.white("find more here: https://hacksore.com"));
-  console.log(site);
-}
+  console.log(picocolors.dim("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒	"));
+  console.log("");
+  console.log(picocolors.bold(picocolors.blue("👋 Hi I am")), picocolors.bold(picocolors.green("Hacksore")));
 
+  console.log();
+  console.log(
+    picocolors.bold(picocolors.white("Find my socials @ https://hacksore.com")),
+  );
+
+  console.log("");
+  console.log(picocolors.dim("▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒	"));
+}

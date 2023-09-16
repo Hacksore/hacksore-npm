@@ -1,14 +1,8 @@
 {
   "name": "hacksore",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
-  "files": [
-    "index.js"
-  ],
   "license": "MIT",
-  "scripts": {
-    "postinstall": "node ./scripts/postinstall.js"
-  },
   "engines": {
     "node": ">=14.0.0"
   },
